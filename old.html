@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="old.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="stylesheet.css"/>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+
+<h1>College Information </h1>
+
+
+<br><br>
+<div class="boi">
+    Enter College Name:
+</div>
+<div id="collegeName" class="boi">
+
+        <tr><input type="text" id="enterName" size="25"> </tr>
+
+</div>
+
+<br><br>
+
+<div id="playButton" class="boi">
+
+    <button class="w3-button w3-black" value="Submit" onclick="findName()">Submit</button>
+
+</div>
+
+<br><br>
+
+<div id="satTable">
+
+    <table border="1">
+
+        <tr>
+            <td colspan="4">SAT SCORES:</td>
+        </tr>
+
+        <tr>
+            <td> Average SAT Score: </td>
+            <td> <div id="satscores"></div> </td>
+        </tr>
+
+        <tr>
+            <td> Lower SAT Scores in Average: </td>
+            <td><div id="25percent"></div> </td>
+        </tr>
+
+        <tr>
+            <td>Higher Scores in Average(75th Percentile):</td>
+            <td><div id="75percent"></div></td>
+        </tr>
+
+    </table>
+
+</div>
+
+<br><br>
+
+<div id="actTables">
+    <table border="1">
+
+        <tr>
+            <td colspan="4"> ACT SCORES: </td>
+        </tr>
+
+        <tr>
+            <td> Average ACT Score: </td>
+            <td> <div id="actscores"></div></td>
+        </tr>
+
+        <tr>
+            <td>Lower Scores in Average(25th Percentile):</td>
+            <td><div id="25act"></div> </td>
+        </tr>
+
+        <tr>
+            <td>Higher Scores in Average(75th Percentile):</td>
+            <td><div id="75act"></div></td>
+        </tr>
+
+    </table>
+</div>
+
+<br><br>
+
+<div id="genTable">
+    <table border="1">
+
+        <tr>
+            <td colspan="4"> General Information </td>
+        </tr>
+
+        <tr>
+            <td> Acceptance Rate:</td>
+            <td><div id="acceptance"></div></td>
+        </tr>
+
+        <tr>
+            <td> Number of Undergraduates: </td>
+            <td><div id="undergraduate"></div></td>
+        </tr>
+
+        <tr>
+            <td> Average Family Income</td>
+            <td><div id="income"></div></td>
+        </tr>
+
+    </table>
+
+</div>
+
+<br><br>
+
+
+<div id="costTable">
+    <table border="1">
+        <tr>
+            <td colspan="4"> Financial Information</td>
+
+        </tr>
+
+        <tr>
+            <td> Cost of Attendance Per Year: </td>
+            <td><div id="attendance"></div></td>
+        </tr>
+
+        <tr>
+            <td> In State Tuition:</td>
+            <td><div id="inState"></div></td>
+        </tr>
+
+        <tr>
+            <td> Out of State Tuition: </td>
+            <td><div id="outState"></div>
+            </td>
+        </tr>
+
+
+    </table>
+
+</div>
+
+<br><br>
+
+
+
+</body>
+</html>
+
+<!--<div id="size">-->
+    <!--Preferred School Size:-->
+    <!--<select id="schoolSize" onchange="start(this.value)">-->
+
+        <!--<option value="0"> Small: Fewer than 5,000 students</option>-->
+        <!--<option value="1"> Medium: Between 5,000-15,000 students</option>-->
+        <!--<option value="2"> Large: Greater than 15,000 students </option>-->
+
+    <!--</select>-->
+
+<!--</div>-->
+
+<!--<img width="200" id="image">-->
+
+<!--</div>-->
+
+<!--<br><br>-->
+<!--<div id= "area" onchange="start(this.value)">-->
+    <!--Preferred Surrounding Area-->
+    <!--<select id="surroundingArea">-->
+
+        <!--<option value="3"> Rural </option>-->
+        <!--<option value="4"> Suburban </option>-->
+        <!--<option value="5"> Urban </option>-->
+
+    <!--</select>-->
+<!--</div>-->
+
+<!--<img width="200" id="imageTwo">-->
+
+<!--<br><br>-->
+<!--<div id= "type">-->
+
+    <!--Preferred College Type-->
+
+    <!--<select id="collegeType">-->
+
+        <!--<option value="6"> Community College </option>-->
+        <!--<option value="7"> Four Year Public Institution </option>-->
+        <!--<option value="8"> Private University </option>-->
+
+    <!--</select>-->
+<!--</div>-->
+
+<!--<br><br>-->
+
+<!--<div id= "geography">-->
+    <!--Preferred Geographical Location:-->
+
+    <!--<select id="geographicalType">-->
+
+        <!--<option value="9">  West Coast </option>-->
+        <!--<option value="10">  Southwest </option>-->
+        <!--<option value="11"> Midwest </option>-->
+        <!--<option value="12"> Southeast </option>-->
+        <!--<option value="13"> Northeast </option>-->
+
+    <!--</select>-->
+<!--</div>-->
+<!--<br><br>-->
+
+<!--<div id= "rate">-->
+    <!--Preferred Geographical Location:-->
+
+    <!--<select id="acceptanceRate">-->
+
+        <!--<option value="14"> Highly Selective </option>-->
+        <!--<option value="15"> Fairly Selective </option>-->
+        <!--<option value="16"> Medium Leveled Selection Rates </option>-->
+    <!--</select>-->
+<!--</div>-->

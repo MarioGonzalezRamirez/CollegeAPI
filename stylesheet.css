@@ -1,0 +1,63 @@
+h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Times New Roman";
+
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    border-top:  10px cadetblue solid ;
+    border-bottom: 10px cadetblue solid;
+}
+
+
+body{
+    color: black;
+    background-color: lightblue;
+    font-family: "Times New Roman";
+
+
+}
+
+.boi {
+    text-align: center;
+}
+
+
+element.style {
+    width: 50px;
+    height: 50px;
+
+}
+
+
+
+.chart-container {
+    width: 600px;
+    height: 400px
+}
+
+
+
+
+#masterChart {
+    float: right;
+    right: 150px;
+    bottom:600px;
+    width: 40%;
+    display: inline;
+}
+
+
+#masterDiv {
+    width:30%;
+    left: 50px;
+    top:1px;
+    margin: 0px;
+    display: inline;
+
+
+}
